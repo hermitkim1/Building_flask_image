@@ -59,6 +59,7 @@ CMD ["python", "app.py"]
 ```
 
 ### 3.3 Build image and run
+Before building an image, you need to create a directory, and put app.py and Dockerfile in it.
 ```
 $ docker build -t flask-test .
 $ docker images
